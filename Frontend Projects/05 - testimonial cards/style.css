@@ -1,0 +1,48 @@
+main {
+    display:flex;
+}
+.card1, .card2 {
+    display:flex;
+    flex-direction: column;
+    width:30vw;
+    margin:10px;
+}
+.text1 {
+    display:flex;
+    background-color: slategrey;
+    color:white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    padding:20px;
+}
+.info1,.info2 {
+    display:flex;
+}
+.subInfo1, .subInfo2 {
+    display:flex;
+    flex-direction: column;
+}
+.img1{
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    background-image: url("./images/pfp1.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow:hidden;
+    margin:10px;
+}
+.img2 {
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    background-image: url("./images/pfp2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    overflow:hidden;
+}
+.checked {
+    color:orange;
+}
